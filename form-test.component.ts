@@ -7,6 +7,7 @@ import { FormGroup, Validators, FormControl} from '@angular/forms';
   styleUrls: ['./form-test.component.css']
 })
 export class FormTestComponent implements OnInit {
+  newVar : number;
   constructor() { }
 
   ngOnInit() {
